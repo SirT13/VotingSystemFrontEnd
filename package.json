@@ -9,8 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3modal/ethereum": "^2.4.1",
+    "@web3modal/react": "^2.4.1",
+    "moralis": "^2.21.0",
+    "moralis-v1": "^1.13.0",
     "next": "13.4.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-moralis": "^1.4.2",
+    "viem": "^0.3.37",
+    "wagmi": "^1.0.8",
+    "web3uikit": "^1.0.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^6.4.0",
+    "prettier": "^2.8.8"
   }
 }
